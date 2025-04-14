@@ -18,19 +18,19 @@ function Budget() {
       </div>
 
       <button onClick={() => setShowModal(true)} style={{backgroundColor: "#26D126", color: "white"}} className="btn btn-sm mt-2">
-        Tambah Budget
+        Atur Budget
       </button>
 
       {showModal && (
         <div className="modal-overlay">
           <div className="modal-content">
-            <h5>Tambah Budget</h5>
+            <h5>Atur Budget</h5>
             <form onSubmit={handleSubmit}>
               <input
                 type="number"
                 value={amount}
                 onChange={(e) => setAmount(e.target.value)}
-                placeholder="Masukkan Total Budget "
+                placeholder="Masukkan Budget "
               />
               <div className="mt-2">
                 <button type="submit" style={{backgroundColor: "#26D126", color: "white"}} className="btn btn-sm me-2">Simpan</button>
