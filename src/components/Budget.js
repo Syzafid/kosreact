@@ -13,7 +13,7 @@ function Budget() {
     <div className="col-lg-3 col-md-6 col-12 mt-5  budget">
       <p className="label">Your Budget</p>
       <div className="budget-info">
-        <span className="amount">Rp {amount || 0}</span>
+        <span className="amount">Rp {parseInt(amount || 0).toLocaleString()}</span>
         <span className="currency">IDR</span>
       </div>
 

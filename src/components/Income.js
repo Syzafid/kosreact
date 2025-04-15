@@ -5,7 +5,7 @@ const Income = ({ totalIncome }) => {
     <div className="col-lg-3 col-md-6 col-12 income">
       <p className="label">Income</p>
       <div className="progress-container">
-        <span className="progress-amount mb-2">Rp {totalIncome}</span>
+        <span className="progress-amount mb-2">Rp {parseInt(totalIncome).toLocaleString()}</span>
         <div className="progress-bar">
           <div className="progress-fill"></div>
         </div>
