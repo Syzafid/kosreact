@@ -1,4 +1,4 @@
-import logo from './../python.png';
+import logo from './img/ihsan1.jpeg';
 import "./Navcss.css";
 
 function Navbar({ userName, jobTitle }) {

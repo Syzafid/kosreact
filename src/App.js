@@ -1,5 +1,4 @@
 import { useState } from 'react';
-import logo from './python.png';
 import './App.css';
 import Navbar from './components/Navbar';
 import Budget from "./components/Budget";
