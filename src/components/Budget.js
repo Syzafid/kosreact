@@ -36,6 +36,7 @@ function Budget() {
                 <button type="submit" style={{backgroundColor: "#26D126", color: "white"}} className="btn btn-sm me-2">Simpan</button>
               </div>
             </form>
+            <div></div>
           </div>
         </div>
       )}
